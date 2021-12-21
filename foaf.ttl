@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Teodor Penevski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Teodor" ;
+  foaf:family_name "Penevski" ;
+  foaf:nick "Toshe" ;
+  foaf:mbox_sha1sum "50cd3087ff9774050c35ec869f1ea2ba1fe21f19" ;
+  foaf:phone <tel:071234567> ;
+  foaf:workplaceHomepage <https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/finki.ukim.mk> ;
+  foaf:workInfoHomepage <https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/Student> ;
+  foaf:schoolHomepage <https://raw.githubusercontent.com/teodorpenevski/WBS-D5/main/josipbroztito.edu.mk> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Eva Spirovska" ;
+    foaf:mbox_sha1sum "18df299817e814da811c14445b3325eaa24d478c"
+  ], [
+    a foaf:Person ;
+    foaf:name "Darko Skerlevski" ;
+    foaf:mbox_sha1sum "b2546575c23d6cb39246acdacef25c4c5399af2c"
+  ], [
+    a foaf:Person ;
+    foaf:name "Emilija Trajanoska" ;
+    foaf:mbox_sha1sum "5a1524c78f11340f89624f8d70f8013131c4854b"
+  ] .
